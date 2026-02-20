@@ -102,13 +102,13 @@ Users register and log in via JWT authentication. Passwords are hashed with bcry
 
 ## Pages
 
-| Page | Description |
-|---|---|
-| Dashboard | Real-time overview with four stat cards (Total Logs, Error Rate, Active Services, Avg Response Time), a 60-minute log volume area chart broken down by level, a live log feed refreshing every 3 seconds, and a service distribution donut chart. Shows a red incident banner when payment-service error rate exceeds 10%. |
-| Log Explorer | Full-text search across all logs with filters for level, service, and time range. Results table with colored level badges, trace IDs, and durations. Click any row to open a detail drawer showing full log metadata and stack trace. |
-| Services | Per-service health cards showing total logs, error count, error rate, avg response time, and a sparkline chart. Payment-service shows `DEGRADED` status during incidents. Expandable table rows show the last 5 logs per service. |
-| Alerts | Configurable alert rules for error rate thresholds, response time limits, and log volume drops. Alerts automatically trigger based on real metrics from Elasticsearch. |
-| Settings | Storage overview with total logs and estimated storage size. Per-service retention policy configuration. Manual cleanup trigger with before/after storage comparison. |
+| Page         | Description                                                                                                                                                                                                                                                                                                                |
+| ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Dashboard    | Real-time overview with four stat cards (Total Logs, Error Rate, Active Services, Avg Response Time), a 60-minute log volume area chart broken down by level, a live log feed refreshing every 3 seconds, and a service distribution donut chart. Shows a red incident banner when payment-service error rate exceeds 10%. |
+| Log Explorer | Full-text search across all logs with filters for level, service, and time range. Results table with colored level badges, trace IDs, and durations. Click any row to open a detail drawer showing full log metadata and stack trace.                                                                                      |
+| Services     | Per-service health cards showing total logs, error count, error rate, average response time, and a sparkline chart. Payment-service shows `DEGRADED` status during incidents. Expandable table rows show the last 5 logs per service.                                                                                      |
+| Alerts       | Configurable alert rules for error rate thresholds, response time limits, and log volume drops. Alerts automatically trigger based on real metrics from Elasticsearch.                                                                                                                                                     |
+| Settings     | Storage overview with total logs and estimated storage size. Per-service retention policy configuration. Manual cleanup trigger with before/after storage comparison.                                                                                                                                                      |
 
 ## Getting Started
 
@@ -168,10 +168,10 @@ npm test
 
 ## Deployment
 
-| Component | Platform |
-|---|---|
-| Frontend | Vercel |
-| Backend | Render |
-| Elasticsearch | Elastic Cloud free tier |
-| MongoDB | MongoDB Atlas free tier |
+| Component     | Platform                  |
+| ------------- | ------------------------- |
+| Frontend      | Vercel                    |
+| Backend       | Render                    |
+| Elasticsearch | Elastic Cloud (Free Tier) |
+| MongoDB       | MongoDB Atlas (Free Tier) |
 
