@@ -1,5 +1,8 @@
 const { Client } = require('@elastic/elasticsearch');
 
+console.log('ES URL:', process.env.ELASTICSEARCH_URL);
+console.log('ES API KEY exists:', !!process.env.ELASTICSEARCH_API_KEY);
+
 const client = process.env.ELASTICSEARCH_API_KEY
   ? new Client({
       node: process.env.ELASTICSEARCH_URL,
