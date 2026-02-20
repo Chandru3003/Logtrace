@@ -1,13 +1,5 @@
 # LogTrace - Centralized Log Monitoring System
 
-## Show Image
-
-Add your project screenshot/GIF here.
-
-## Live Demo
-
-Coming soon - deployment in progress.
-
 ## Overview
 
 A production-grade distributed logging platform that aggregates, indexes, and visualizes logs from multiple microservices in real time. Built to solve the core DevOps problem of debugging distributed systems - instead of SSHing into individual servers, engineers get a single dashboard showing everything happening across all services simultaneously.
@@ -183,10 +175,3 @@ npm test
 | Elasticsearch | Elastic Cloud free tier |
 | MongoDB | MongoDB Atlas free tier |
 
-## Resume Bullet Points This Project Demonstrates
-
-- Distributed logging service aggregating logs from 5 microservices at 25 logs/second
-- Full-text search and filtering using Elasticsearch with React-based visualization dashboard
-- Retention and archiving mechanism reducing storage overhead by ~25% through configurable TTL policies
-- JWT authentication with bcrypt password hashing and MongoDB user storage
-- Containerized infrastructure with Docker Compose
