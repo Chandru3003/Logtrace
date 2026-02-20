@@ -1,0 +1,9 @@
+node_modules/
+.env
+dist/
+.DS_Store
+*.log
+
+# Docker Compose volumes (bind mounts)
+elasticsearch-data/
+mongo-data/
