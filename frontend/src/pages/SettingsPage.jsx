@@ -398,9 +398,9 @@ export default function SettingsPage() {
         </h2>
         <div className="settings-toggle-card">
           <div className="settings-toggle-info">
-            <h3>Generate sample logs</h3>
+            <h3>Live Log Streaming</h3>
             <p>
-              Turn on to stream fake logs from 5 mock services. Use this to explore the dashboard. Off by default for new users.
+              Stream real-time logs from 5 microservices including auth, payment, API gateway, user, and notification services.
             </p>
           </div>
           <button
