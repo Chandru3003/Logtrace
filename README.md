@@ -4,6 +4,10 @@
 
 A production-grade distributed logging platform that aggregates, indexes, and visualizes logs from multiple microservices in real time. Built to solve the core DevOps problem of debugging distributed systems - instead of SSHing into individual servers, engineers get a single dashboard showing everything happening across all services simultaneously.
 
+## Live Demo
+
+- Frontend: https://logtrace.vercel.app/login
+
 ## The Problem This Solves
 
 When you run multiple microservices simultaneously, logs are scattered across different servers and processes. When something breaks in production, finding the root cause means digging through each service manually - this can take hours. LogTrace centralizes everything into one searchable, visual interface so engineers can identify and resolve incidents in seconds.
